@@ -1,0 +1,89 @@
+.about-us-section {
+  display:flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.section-start {
+  display:flex;
+  max-width: 1440px;
+  background-color: #E37918;
+  padding: 2rem;
+  /* margin: auto; */
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.how-started {
+  padding:1rem;
+  display:flex;
+  align-items: center;
+  /* justify-content: center;  */
+  max-width: 400px;
+  font-size: 40px;
+  font-family: "Georama", sans-serif;
+  font-weight: 700;
+  line-height: .6;
+}
+
+.how-started-text {
+  max-width: 700px;
+  font-size: 20px;
+  font-family: "Georama", sans-serif;
+  font-weight: 500;
+  font-style: medium;
+}
+
+.team-title{
+  padding: 2rem;
+  font-family: Dela Gothic One;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+
+}
+.team-profile-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom:2rem;
+}
+
+.team-profile {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1200px;
+  gap: 2rem;
+  /* flex-wrap: wrap;
+  gap: 2rem;
+  margin: auto; */
+}
+
+.team-profile-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFDB58;
+  border-radius: 20px;
+}
+
+.profile_img{
+
+  height: 350px;
+  border-radius: 20px;
+  /* border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #E37918; */
+}
+
+.team-profile-card-name{
+  padding: 0.5rem 1.5rem;
+  font-family: Merriweather Sans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 3%;
+}

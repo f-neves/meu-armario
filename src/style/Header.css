@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffe4b5; /* tom pastel */
+  border-bottom: 1px solid #ddd;
+}
+
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.logo-img-header {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+}
+
+.nav a {
+  font-family: "Georama", sans-serif;
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav a:hover {
+  color: #ff9900;
+  
+}
+
+.login-button{
+  width: 130px;
+  height: 40px;
+  background-color: #FFDB58;
+  border-top: none;
+  border-right: none;
+  border-left: 4px solid;
+  border-bottom: 4px solid;
+  border-radius: 2px;
+  /* shadow: 0px 4px 0px 0px #E37918; */
+}
