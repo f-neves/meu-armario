@@ -1,16 +1,10 @@
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
-<<<<<<< HEAD
-// import Closet from './pages/Closet'
-// import AddItem from './pages/AddItem'
-
-=======
 import Login from './pages/Login'
 import Closet from './pages/Closet'
 import Looks from './pages/Looks'
 import AddItem from './pages/AddItem'
->>>>>>> 487750c (Some pages added)
 import Header from './components/Header'
 import Footer from './components/Footer'
 
@@ -21,15 +15,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/sobre-nos" element={<AboutUs />} />
-<<<<<<< HEAD
-        {/* <Route path="/guarda-roupa" element={<Closet />} /> */}
-        {/* <Route path="/adicionar" element={<AddItem />} /> */}
-=======
         <Route path="/login" element={<Login />} />
         <Route path="/guarda-roupa" element={<Closet />} />
         <Route path="/adicionar-item" element={<AddItem />} />
         <Route path="/looks" element={<Looks />} />
->>>>>>> 487750c (Some pages added)
       </Routes>
       <Footer />
       <style>
