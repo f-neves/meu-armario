@@ -1,0 +1,83 @@
+
+/* Looks.css */
+.modal-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  min-width: 600px;
+}
+
+.modal-slots-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: #f8f8f8;
+  padding: 1rem;
+  border-radius: 12px;
+  min-width: 180px;
+  align-items: flex-start;
+}
+
+.modal-slot {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.modal-slot.selected,
+.modal-slot:hover {
+  background: #ffe4b5;
+  font-weight: bold;
+}
+
+.slot-emoji {
+  font-size: 1.5rem;
+}
+
+.modal-items-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 250px;
+}
+
+.guarda-roupa {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.peca-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 0.5rem;
+  background: #fff;
+  transition: box-shadow 0.2s;
+}
+
+.peca-item:hover {
+  box-shadow: 0 2px 8px #ffe4b5;
+}
+
+.peca-escolhida {
+  margin-top: 1rem;
+  background: #fffbe6;
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.modal-actions {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}

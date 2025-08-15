@@ -1,0 +1,137 @@
+.add-item-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #fdf9ef; /* tom suave de fundo */
+}
+
+.add-item-container h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.add-item-form {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Área de upload */
+.upload-area {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.upload-label {
+  border: 2px dashed #f4c542;
+  border-radius: 10px;
+  width: 280px;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #fffdf8;
+  text-align: center;
+}
+
+.upload-label p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.upload-label small {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Campos do formulário */
+.form-fields {
+  flex: 2;
+  min-width: 400px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem 2rem;
+}
+
+.form-fields label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.form-fields input,
+.form-fields select,
+.form-fields textarea {
+  margin-top: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 0.9rem;
+}
+
+.form-fields textarea {
+  resize: vertical;
+  min-height: 80px;
+  grid-column: span 2;
+}
+
+/* Opções de cor */
+.color-options {
+  padding: 0.5rem 0;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.color-circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+.color-circle.selected {
+  border: 2px solid #000;
+}
+
+.form-add-item-submit-button {
+  display: flex;
+  justify-content: end;
+  padding-top: 1rem;
+}
+
+/* Botão de envio */
+.submit-btn {
+  grid-column: span 2;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #f4c542;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #e0b63a;
+}

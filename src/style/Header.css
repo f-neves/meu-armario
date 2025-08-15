@@ -1,5 +1,6 @@
 .header {
   display: flex;
+<<<<<<< HEAD
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
@@ -17,6 +18,32 @@
 .logo-img-header {
   height: 48px;
   width: auto;
+=======
+  height: 80px;
+  align-items: stretch;
+  padding: 1rem 2rem;
+  background-color: #ffe4b5;
+}
+
+.header-logo{
+  align-self: center;
+}
+
+.header-nav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  width: 100%;
+  padding: 0 2rem;
+  /* background-color:rgb(255, 96, 88); */
+}
+
+.logo-img-header {
+  /* height: 48px; */
+  margin: auto;
+  width: 120px;
+>>>>>>> 487750c (Some pages added)
   object-fit: contain;
 }
 
@@ -34,6 +61,7 @@
   
 }
 
+<<<<<<< HEAD
 .login-button{
   width: 130px;
   height: 40px;
@@ -44,4 +72,22 @@
   border-bottom: 4px solid;
   border-radius: 2px;
   /* shadow: 0px 4px 0px 0px #E37918; */
+=======
+.header-login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-button{
+  width: 120px;
+  height: 50px;
+  background-color: #FFDB58;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-radius: 8px;
+>>>>>>> 487750c (Some pages added)
 }
